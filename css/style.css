@@ -26,7 +26,7 @@ body {
 }
 
 /*==========================================
-PRE LOADER 
+PRE LOADER
 ==========================================*/
 .preloader {
     position: fixed;
@@ -207,9 +207,9 @@ a:hover{
     padding-top: 0px;
     padding-bottom: 0px;
     position: fixed;
-    top: 0; 
-	left: 0; 
-	right: 0; 
+    top: 0;
+	left: 0;
+	right: 0;
 	z-index: 300;
     box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
     -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
@@ -217,7 +217,7 @@ a:hover{
 	color:#ffd600;
 	height:80px;
 	z-index:9999;
-	
+
 }
 .menu-scroll .navbar-default .navbar-nav>li>a {
     color: #fff;
@@ -234,11 +234,11 @@ a:hover{
 }
 
 .main_menu_bg{
-	
+	color: #fff;
 }
 .main_menu_bg .navbar-default {
-    background-color: transparent; 
-    border-color: transparent; 
+    background-color: transparent;
+    border-color: transparent;
 	transition:.6s;
 }
 .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus{
@@ -328,7 +328,7 @@ a:hover{
 
 .single_works{
     width: 70%;
-    margin: auto;	
+    margin: auto;
 }
 
 .single_works_deatels{
@@ -340,7 +340,7 @@ a:hover{
     font-size: 40px;
     margin-bottom: 10px;
     display: inline-block;
-	
+
 }
 .single_works_deatels h5{
 	margin-top:10px;
@@ -400,8 +400,8 @@ a:hover{
     display: inline-block;
     float: left;
 
-	
-	
+
+
 }
 .clients_details .clients_name{
     width: 80%;
@@ -455,7 +455,7 @@ a:hover{
 	color: #ABACAE;
     margin-right: 10px;
     font-size: 22px;
-	transition:.6s;	
+	transition:.6s;
 }
 i, i:hover{
 	color:#bd9e6f;
@@ -472,7 +472,7 @@ i, i:hover{
 
 .footer{
 	background:#34363a;
-    padding: 20px 0px 0px 0px;	
+    padding: 20px 0px 0px 0px;
 }
 
 
@@ -493,7 +493,7 @@ i, i:hover{
     height: 34px;
     outline: none;
     font-size: 13px;
-	
+
 }
 .footer .single_footer p{
 	display: inline-block;
