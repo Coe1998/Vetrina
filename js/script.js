@@ -1,15 +1,15 @@
 
 $(document).ready(function() {
-	
+
 
 	$(window).load(function () {
 		$(".loaded").fadeOut();
 		$(".preloader").delay(1000).fadeOut("slow");
 	});
 
-	  
-	  
-	  
+
+
+
 
 
 <!-- =============================================== -->
@@ -31,7 +31,7 @@ $(document).ready(function() {
 		});
 		return false;
 	});
-	
+
 
 
 
@@ -71,7 +71,7 @@ responsiveBaseWidth: window
 <!-- =============================================== -->
 <!-- ========== scrollTop.js ========== -->
 <!-- =============================================== -->
-    
+
 $('.scrollup').click(function(){
 $("html, body").animate({ scrollTop: 0 }, 2000);
 return false;
@@ -90,7 +90,7 @@ $('.scrolldown a').bind('click', function () {
     event.preventDefault();
 });
 
-			
+
 
 
 <!-- =============================================== -->
@@ -102,26 +102,26 @@ $('.nav a').bind('click', function () {
         scrollTop: $($(this).attr('href')).offset().top - 80
     }, 1500, 'easeInOutExpo');
     event.preventDefault();
-});			
-			
-			
+});
+
+
 
  new WOW().init();
- 
- // main-menu-scroll
 
+ // main-menu-scroll
+/*
 	jQuery(window).scroll(function () {
 	  var top = jQuery(document).scrollTop();
 		var height = 300;
 	  //alert(batas);
-	  
+
 	  if (top > height) {
 		jQuery('.navbar-fixed-top').addClass('menu-scroll');
 	  } else {
 	   jQuery('.navbar-fixed-top').removeClass('menu-scroll');
 	  }
-	});	
-	
+	});
+	*/
 // scroll Up
 
     $(window).scroll(function(){
@@ -134,21 +134,9 @@ $('.nav a').bind('click', function () {
     $('.scrollup').click(function(){
         $("html, body").animate({ scrollTop: 0 }, 1000);
         return false;
-    });		
+    });
 
 
-		
-		
+
+
 });
-
-
-
-
-
-
-		
-  
- 
-
-
-	
